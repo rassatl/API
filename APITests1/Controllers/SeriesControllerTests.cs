@@ -26,13 +26,13 @@ namespace API.Controllers.Tests
             //var builder = new DbContextOptionsBuilder<SeriesDbContext>().UseNpgsql("Server=localhost;port=5432;Database=SeriesDB; uid=postgres; password=postgres;"); // Chaine de connexion à mettre dans les ( )
             //SeriesDbContext context = new SeriesDbContext(builder.Options);
         }
-
+        /*
         [TestMethod()]
         public void SeriesControllerTest()
         {
             Assert.Fail();
         }
-
+        */
         [TestMethod()]
         public void GetSeriesTest()
         {
@@ -91,7 +91,7 @@ namespace API.Controllers.Tests
 
             //CollectionAssert.AreEqual(serieList, listeSeriesRecuperees);
         }
-
+        /*
         [TestMethod()]
         public void PutSerieTest()
         {
@@ -108,6 +108,6 @@ namespace API.Controllers.Tests
         public void DeleteSerieTest()
         {
             Assert.Fail();
-        }
+        }*/
     }
 }
